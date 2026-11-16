@@ -1,0 +1,66 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+   font-size: 40px; 
+}
+
+p {
+    color: black;
+    font-size: 18px;
+}
+h2 {
+color: purple;
+}
+nav {
+    background-color: darkblue;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+img {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px gray;
+}
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+footer {
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+footer p {
+    color: white;
+}
+section {
+    padding: 25px;
+    margin: 35px;
+}
+section {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px gray;
+}
+#gallery img {
+    margin: 10px;
+}
